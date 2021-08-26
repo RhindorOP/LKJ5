@@ -26,9 +26,9 @@
 				:key="i"
 				elevation="10"
 				max-width="750px"
-				class="text-center text-h1 font-weight-bold py-10"
+				class="text-center text-h2 text-md-h1 font-weight-bold py-10"
 				style="margin: 25px auto 750px"
-			>TO BE TRANSLATED</v-sheet>
+			>TO BE<br/>TRANSLATED</v-sheet>
 		</v-sheet>
 	</v-container>
 </template>
