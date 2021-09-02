@@ -39,15 +39,11 @@
 					<div class="d-flex d-md-none">&zwnj; LKJ &zwnj;</div>5
 				</div>
 
-				<v-btn
-					@click="switchimg()"
-					:color="num ? 'blue darken-1' : 'green darken-1'"
-					style="width:70px"
-				>{{curimg}}</v-btn>
+				<div/>
 			</v-card>
 		</v-app-bar>
 		<v-main>
-			<Story :num="num" />
+			<Story />
 		</v-main>
 	</v-app>
 </template>
@@ -58,20 +54,6 @@ import Story from "./components/Story";
 export default {
 	name: "App",
 	components: { Story },
-	data: () => ({
-		num: 1,
-		curimg: "MTL",
-	}),
-	methods: {
-		switchimg() {
-			if (this.num == 1) {
-				this.num = 0;
-				this.curimg = "RAW";
-			} else {
-				this.num = 1;
-				this.curimg = "MTL";
-			}
-		},
-	},
+	data: () => ({	}),
 };
 </script>

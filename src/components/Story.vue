@@ -16,7 +16,6 @@
 <script>
 export default {
 	name: "Story",
-	props: ["num"],
 	data: () => ({ lenjpg: 0 }),
 	methods: {
 		lengths() {
